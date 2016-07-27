@@ -1,3 +1,81 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+nav {
+  background-color: #808080;
+}
+nav a {
+  background-color: #ffbf00;
+  text-decoration: none;
+  font-family: tahoma;
+  font-size: 20px;
+  color: white;
+  padding: 35px;
+  display: block;
+  float: left;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+}
+a:hover {
+  background-color: #ee5f3c;
+}
+h1 {
+  font-family: 'Bevan', cursive;
+  font-size: 40px;
+  color: rgb(2, 132, 130);
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Bevan', cursive;
+  color: #ffd700;
+  text-align: center;
+}
+h3 {
+  font-size: 25px;
+  font-family: tahoma;
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+p {
+  font-family: tahoma;
+  text-align: center;
+  clear: both;
+}
+a {
+  text-decoration: none;
+  font-family: 'Bevan', cursive;
+}
+.board {
+  height: 50%;
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin: 8%;
+}
+.card {
+  height: 200px;
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: linear-gradient(#ffffff 50%,  #ffff66 50%);
+  background-size: 100% 20%;
+  background-repeat: repeat-y;
+}
+.name {
+  color: rgb(2, 132, 130);
+}
+.heart {
+  color: pink;
+}
+footer {
+  font-family: 'Bevan', cursive;
+  font-size: 20px;
+  background-color: #808080;
+  clear: both;
+  text-align: center; 
+}
