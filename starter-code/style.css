@@ -6,7 +6,7 @@ nav a {
   text-decoration: none;
   font-family: tahoma;
   font-size: 20px;
-  color: white;
+  color: grey;
   padding: 35px;
   display: block;
   float: left;
@@ -20,7 +20,7 @@ nav a {
         font-size: 0;
 }
 a:hover {
-  background-color: #ee5f3c;
+  background-color: white;
 }
 h1 {
   font-family: 'Bevan', cursive;
@@ -54,14 +54,15 @@ a {
   height: 50%;
   width: 50%;
   display: inline-block;
-  float: left;
   margin: 8%;
 }
 .card {
   height: 200px;
   width: 150px;
-  border: 2px solid black;
+  border: 2px solid grey;
   border-radius: 15px;
+  float: left;
+  margin: 8%;
   background: linear-gradient(#ffffff 50%,  #ffff66 50%);
   background-size: 100% 20%;
   background-repeat: repeat-y;
